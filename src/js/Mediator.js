@@ -1,7 +1,6 @@
 /**
  * 中介者（Mediator）
  */
-
 class Colleague {
     constructor() {
         if(new.target == Colleague) {

@@ -1,7 +1,6 @@
 /**
  * 模板方法（Template Method）
  */
-
 class CaffeineBeverage {
     constructor(){
     }

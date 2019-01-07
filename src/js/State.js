@@ -1,7 +1,6 @@
 /**
  * 状态（State）
  */
-
 class State {
     constructor() {
         if(new.target == State) {

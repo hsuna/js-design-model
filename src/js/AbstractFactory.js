@@ -16,8 +16,7 @@ class AbstractProductB {
             throw new Error('AbstractProductB is an interface.');
         }
     }
-    toString(){
-    }
+    toString(){}
 }
 
 class ProductA1 extends AbstractProductA {
@@ -63,7 +62,7 @@ class ProductB2 extends AbstractProductB {
 class AbstractFactory {
     constructor() {
         if(new.target == AbstractFactory){
-            throw new Error('AbstractFactory is an interface.');
+            throw new Error('AbstractFactory is an abstract.');
         }
     }
     createProductA() {}
